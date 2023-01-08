@@ -1,1 +1,0 @@
-# esnk-Burtnyk_Hillel_12
