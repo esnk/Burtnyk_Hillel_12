@@ -225,16 +225,21 @@
   align-items: center;
 }
 .container-cards {
+  width: 1290px;
 display: flex;
-justify-content: space-around;
+flex-direction: row;
+justify-content: space-between;
+margin: 0 auto;
   
 }
-.container-cards .card {
+ .card {
   width: 330px;
   height: 294px;
   display: flex;
   flex-direction: column;
   text-align: center;
+ 
+
 }
 .card__title {font-family: 'Graphik LCG';
   font-style: normal;
