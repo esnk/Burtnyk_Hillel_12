@@ -472,7 +472,9 @@
 .bg-grey {
   background-color: #eeeeee;
   width: 100%;
+  padding: 92px 0px 48px;
 }
+
 .bg-grey__item {
   display: flex;
   flex-direction: column;
@@ -484,4 +486,74 @@
   font-size: 40px;
   line-height: 50px;
   color: #000000;
+}
+.bg-grey__item__img {
+  margin: 28px 0px 31px;
+}
+.bg-grey__item__img-logo {
+  margin-bottom: 11px;
+}
+.bg-grey__item__text {
+  width: 290px;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin: 11px 0px 15px;
+}
+.bg-grey__item__footer {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.bg-grey__item__list-title {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.bg-grey__list a {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+.bg-grey__list li {
+  margin-bottom: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 1290px;
+  margin: 0 auto;
+  border-top:3px solid #000000;
+  justify-content: space-between;
+  padding: 48px 0px 0px;
+  margin-top: -150px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer__text {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin-left: 15px;
 }
