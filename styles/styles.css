@@ -82,6 +82,9 @@
   margin-bottom: 250px;
   justify-content: space-between;
 }
+.container__item {
+  margin-top: 100px;
+}
 
 .container__title {
   width: 552px;
@@ -91,7 +94,6 @@
   font-size: 65px;
   line-height: 70px;
   color: #000000;
-  
 }
 
 .container__p {
@@ -151,6 +153,7 @@
   background-color: #ff9c7d;
   width: 100%;
   height: 455px;
+  margin-top: -100px;
 }
 
 .container--bg-orange .regular__title {
@@ -351,8 +354,8 @@
   height: 178px;
   margin: 0 auto;
   display: flex;
- 
 }
+
 .container-right-line {
   display: flex;
   border-left: 3px solid #000000;
@@ -372,4 +375,113 @@
   color: #000000;
   align-items: center;
   margin-left: 67px;
+}
+.bg-aqua__container {
+  width: 1290px;
+  height: 465px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container-cards__img {
+  height: 201px;
+}
+.container-column {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 169px 0px 120px;
+}
+
+.container-column__title {
+  width: 790px;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+  color: #000000;
+}
+.container-column__text {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.container-column__button {
+  margin-top: 30px;
+  width: 193px;
+  height: 60px;
+  background-color: #ff6336;
+  border-color: #ff6336;
+  border-style: solid;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.bg-pink {
+  width: 100%;
+  background-color: #ff9c7d;
+  padding: 161px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-pink__title {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+  color: #000000;
+}
+.bg-pink__text {
+  font-family: "Graphik LC TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin: 29px 0 54px;
+}
+.bg-pink__button {
+  width: 160px;
+  height: 60px;
+  background-color: #000000;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.bg-grey {
+  background-color: #eeeeee;
+  width: 100%;
+}
+.bg-grey__item {
+  display: flex;
+  flex-direction: column;
+}
+.bg-grey__item__title {
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
 }
