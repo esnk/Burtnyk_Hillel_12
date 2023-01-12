@@ -291,6 +291,13 @@
   padding-right: 30px;
   margin-top: 75px;
 }
+.card-2 > a {
+  width: 440px;
+  height: 609px;
+  padding-right: 30px;
+  margin-top: 75px;
+  color: #000000;
+}
 .card-2__title {
   font-family: "Graphik LCG";
   font-style: normal;
@@ -317,6 +324,7 @@
   line-height: 30px;
   color: #000000;
 }
+
 
 .bg-aqua {
   width: 100%;
